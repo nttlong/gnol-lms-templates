@@ -26,8 +26,8 @@ import xdj
 %>
 
 <!DOCTYPE html>
-<!--[if lte IE 9]><html class="ie ie9 lte9" lang="${LANGUAGE_CODE}"><![endif]-->
-<!--[if !IE]><!--><html lang="${LANGUAGE_CODE}"><!--<![endif]-->
+<!--[if lte IE 9]><html class="ie ie9 lte9" lang="${LANGUAGE_CODE}" ng-app="cms"><![endif]-->
+<!--[if !IE]><!--><html lang="${LANGUAGE_CODE}" ng-app="cms"><!--<![endif]-->
 <head dir="${static.dir_rtl()}">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -171,9 +171,18 @@ import xdj
     </script>
 % endif
 <link rel="stylesheet" href="/lms/static/site.css" type="text/css" media="all" />
+<script src="/lms/static/client/angular.min.js"></script>
+<script src="/lms/static/client/ajax.js"></script>
+<script src="/lms/static/client/ui.js"></script>
+<script src="/lms/static/client/ui.directtives/ui.qTemplate.js"></script>
+<script src="/lms/static/client/ui.directtives/ui.service.ajax.js"></script>
+<script src="/lms/static/client/ui.directtives/ui.drectives.ajax.js"></script>
+<script src="/lms/static/client/ui.directtives/ui.directitive.ajax.call.js"></script>
+<script src="/lms/static/client/ui.directtives/ui.services.dialog.js"></script>
+<script src="/lms/static/client/ui.directtives/ui.bootstrap.layout.js"></script> 
 </head>
 
-<body class="${static.dir_rtl()} <%block name='bodyclass'/> lang_${LANGUAGE_CODE}">
+<body class="${static.dir_rtl()} <%block name='bodyclass'/> lang_${LANGUAGE_CODE}" ng-controller="cms">
 
 <%static:optional_include_mako file="body-initial.html" is_theming_enabled="True" />
 <div id="page-prompt"></div>
@@ -212,6 +221,12 @@ import xdj
   <script type="text/javascript" src="${static.url('js/utils/navigation.js')}" charset="utf-8"></script>
   <script type="text/javascript" src="${static.url('js/header/header.js')}"></script>
   <%static:optional_include_mako file="body-extra.html" is_theming_enabled="True" />
+  <script>
+    var mdl = angular.module("cms",[]);
+    var ctrl =mdl.controller("cms",["$scope",function($scope){
+      alert($scope.$id);
+    }])
+</script>
 </body>
 </html>
 
