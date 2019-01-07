@@ -10,7 +10,7 @@
 <%! main_css = "style-main-v1" %>
 
 
-<%namespace name='static' file='x-static-content.html'/>
+<%namespace name='static' file='static_content.html'/>
 <% online_help_token = self.online_help_token() if hasattr(self, 'online_help_token') else None %>
 <%!
 from branding import api as branding_api
@@ -170,7 +170,7 @@ import xdj
         branch.init('${branch_key | n, js_escaped_string}');
     </script>
 % endif
-
+<link rel="stylesheet" href="/lms/static/site.css" type="text/css" media="all" />
 </head>
 
 <body class="${static.dir_rtl()} <%block name='bodyclass'/> lang_${LANGUAGE_CODE}">

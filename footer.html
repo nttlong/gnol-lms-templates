@@ -7,7 +7,7 @@
   from openedx.core.djangoapps.lang_pref.api import footer_language_selector_is_enabled
 %>
 <% footer = get_footer(is_secure=is_secure) %>
-<%namespace name='static' file='x-static-content.html'/>
+<%namespace name='static' file='static_content.html'/>
 
 % if uses_bootstrap:
   <div class="container-fluid wrapper-footer">
@@ -94,7 +94,7 @@
               ## (e.g. a blog or marketing front-end) to provide a consistent
               ## user experience.  See the branding app for details.
               <!--<img alt="organization logo" src="${footer['logo_image']}">-->
-              <img alt="organization logo" src="${static.url('images/logo.footer.png')}">
+              <img alt="organization logo" src="/lms${static.url('logo.footer.png')}">
             </a>
           </p>
         </div>

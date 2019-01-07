@@ -31,7 +31,9 @@ logger = logging.getLogger(__name__)
 %></%def>
 
 <%def name='url(file, raw=True)'><%
-return "/static/"+file
+xdj.debugTemplate(file)
+print "/lms/static/"+file
+return "/lms/static/"+file
 try:
     url = "staticfiles_storage.url(file)"
 except:

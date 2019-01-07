@@ -8,7 +8,7 @@
   course_discovery_enabled = settings.FEATURES.get('ENABLE_COURSE_DISCOVERY')
 %>
 
-<%namespace name='static' file='../static_content.html'/>
+<%namespace name='static' file='../x-static-content.html'/>
 
 % if course_discovery_enabled:
 <%block name="header_extras">

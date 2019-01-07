@@ -9,7 +9,7 @@ from openedx.core.djangolib.markup import HTML
 
 <%inherit file="/main.html" />
 <%block name="bodyclass">view-in-course view-statictab ${course.css_class or ''}</%block>
-<%namespace name='static' file='/static_content.html'/>
+<%namespace name='static' file='/x-static-content.html'/>
 
 <%block name="head_extra">
 <%static:css group='style-course-vendor'/>

@@ -2,30 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c2ffd94-0a9b-4e11-93e3-aabf42b7a3e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/xdj-gnol-lms-templates.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-static-content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financial-assistance/apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/financial-assistance/apply.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_admin/catalogs/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/api_admin/catalogs/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_admin/catalogs/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/api_admin/catalogs/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccx/coach_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/ccx/coach_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccx/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/ccx/schedule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificates/_accomplishment-banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificates/_accomplishment-banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificates/_accomplishment-rendering.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificates/_accomplishment-rendering.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificates/_badges-modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificates/_badges-modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificates/accomplishment-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificates/accomplishment-base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commerce/checkout_receipt.html" beforeDir="false" afterPath="$PROJECT_DIR$/commerce/checkout_receipt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/accordion.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/accordion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/course_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/course_about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/course_about_sidebar_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/course_about_sidebar_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/course_navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/course_navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/courseware-chromeless.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/courseware-chromeless.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/courseware-error.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/courseware-error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/courseware.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/courseware.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/error-message.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/error-message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/gradebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/gradebook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/program_marketing.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/program_marketing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/progress.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/progress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/static_tab.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/static_tab.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/syllabus.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/syllabus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/tab-view-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/tab-view-v2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/tab-view.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/tab-view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/tabs.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/tabs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseware/xqa_interface.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseware/xqa_interface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/_dashboard_certificate_information.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/_dashboard_certificate_information.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/_dashboard_course_listing.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/_dashboard_course_listing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/_dashboard_credit_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/_dashboard_credit_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/_dashboard_show_consent.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/_dashboard_show_consent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/_dashboard_status_verification.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/_dashboard_status_verification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discussion/_js_body_dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/discussion/_js_body_dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discussion/_js_head_dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/discussion/_js_head_dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discussion/_underscore_templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/discussion/_underscore_templates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edxnotes/edxnotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/edxnotes/edxnotes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edxnotes/toggle_notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/edxnotes/toggle_notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/reject_name_change.txt" beforeDir="false" afterPath="$PROJECT_DIR$/emails/reject_name_change.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/navbar-authenticated.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/navbar-authenticated.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header/navbar-logo-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/navbar-logo-header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learner_dashboard/program_details_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/learner_dashboard/program_details_fragment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learner_dashboard/programs_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/learner_dashboard/programs_fragment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learner_dashboard/text-me-fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/learner_dashboard/text-me-fragment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/navbar-not-authenticated.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/navbar-not-authenticated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageannotation.html" beforeDir="false" afterPath="$PROJECT_DIR$/imageannotation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructor/instructor_dashboard_2/certificates.html" beforeDir="false" afterPath="$PROJECT_DIR$/instructor/instructor_dashboard_2/certificates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructor/instructor_dashboard_2/cohort_management.html" beforeDir="false" afterPath="$PROJECT_DIR$/instructor/instructor_dashboard_2/cohort_management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructor/instructor_dashboard_2/discussions_management.html" beforeDir="false" afterPath="$PROJECT_DIR$/instructor/instructor_dashboard_2/discussions_management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructor/instructor_dashboard_2/instructor_dashboard_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/instructor/instructor_dashboard_2/instructor_dashboard_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructor/instructor_dashboard_2/membership.html" beforeDir="false" afterPath="$PROJECT_DIR$/instructor/instructor_dashboard_2/membership.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_django.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_django.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal/_modal-settings-language.html" beforeDir="false" afterPath="$PROJECT_DIR$/modal/_modal-settings-language.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/bootstrap/navbar-authenticated.html" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/bootstrap/navbar-authenticated.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navigation/bootstrap/navbar-logo-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/bootstrap/navbar-logo-header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/navbar-authenticated.html" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/navbar-authenticated.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navigation/navbar-logo-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/navbar-logo-header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_templates/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_templates/server-down.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_templates/server-down.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_templates/server-error.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_templates/server-error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_templates/server-overloaded.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_templates/server-overloaded.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_account/finish_auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/student_account/finish_auth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/navbar-not-authenticated.html" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/navbar-not-authenticated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preview_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/preview_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration/password_reset_confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/receipt.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/receipt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/registration_code_receipt.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/registration_code_receipt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/registration_code_redemption.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/registration_code_redemption.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/shopping_cart_flow.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/shopping_cart_flow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff_problem_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff_problem_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_account/account_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/student_account/account_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_account/login_and_register.html" beforeDir="false" afterPath="$PROJECT_DIR$/student_account/login_and_register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support/certificates.html" beforeDir="false" afterPath="$PROJECT_DIR$/support/certificates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/support/contact_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support/enrollment.html" beforeDir="false" afterPath="$PROJECT_DIR$/support/enrollment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support/entitlement.html" beforeDir="false" afterPath="$PROJECT_DIR$/support/entitlement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/support/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support/manage_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/support/manage_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey/survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/survey/survey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sysadmin_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/sysadmin_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sysadmin_dashboard_gitlogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/sysadmin_dashboard_gitlogs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textannotation.html" beforeDir="false" afterPath="$PROJECT_DIR$/textannotation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux/reference/bootstrap/unit-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/ux/reference/bootstrap/unit-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux/reference/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ux/reference/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux/reference/pattern-library/unit-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/ux/reference/pattern-library/unit-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux/reference/v1/course-skeleton.html" beforeDir="false" afterPath="$PROJECT_DIR$/ux/reference/v1/course-skeleton.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux/reference/v1/unit-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/ux/reference/v1/unit-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verify_student/_verification_help.html" beforeDir="false" afterPath="$PROJECT_DIR$/verify_student/_verification_help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verify_student/incourse_reverify.html" beforeDir="false" afterPath="$PROJECT_DIR$/verify_student/incourse_reverify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verify_student/missed_deadline.html" beforeDir="false" afterPath="$PROJECT_DIR$/verify_student/missed_deadline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verify_student/pay_and_verify.html" beforeDir="false" afterPath="$PROJECT_DIR$/verify_student/pay_and_verify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verify_student/reverify.html" beforeDir="false" afterPath="$PROJECT_DIR$/verify_student/reverify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verify_student/test/fake_softwaresecure_response.html" beforeDir="false" afterPath="$PROJECT_DIR$/verify_student/test/fake_softwaresecure_response.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoannotation.html" beforeDir="false" afterPath="$PROJECT_DIR$/videoannotation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets/cookie-consent.html" beforeDir="false" afterPath="$PROJECT_DIR$/widgets/cookie-consent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets/footer-language-selector.html" beforeDir="false" afterPath="$PROJECT_DIR$/widgets/footer-language-selector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-static-content.html" beforeDir="false" afterPath="$PROJECT_DIR$/x-static-content.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,21 +107,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/x-static-content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="41" lean-forward="true" selection-end-line="254" />
+            <state relative-caret-position="556">
+              <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="534">
+              <caret line="172" column="55" selection-start-line="172" selection-start-column="55" selection-end-line="172" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static_content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="254" lean-forward="true" selection-start-line="254" selection-end-line="254" />
+            <state relative-caret-position="180">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/courseware/courses.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header/navbar-logo-header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="96" column="66" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -78,8 +187,13 @@
       <find>file='static_content.html'</find>
       <find>&lt;%namespace name='static' file='static_content.html'/&gt;</find>
       <find>static_content.html'</find>
-      <find>url</find>
       <find>static_content.html'/&gt;</find>
+      <find>logo.footer.png</find>
+      <find>x-static-content.html</find>
+      <find>class=&quot;logo&quot;</find>
+      <find>static_content</find>
+      <find>static_cont</find>
+      <find>url</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;%namespace name='static' file='static_content.html'/&gt;</replace>
@@ -95,22 +209,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.html" />
-        <option value="$PROJECT_DIR$/x-static-content.html" />
         <option value="$PROJECT_DIR$/navigation/bootstrap/navbar-logo-header.html" />
         <option value="$PROJECT_DIR$/navigation/navbar-logo-header.html" />
-        <option value="$PROJECT_DIR$/header/navbar-logo-header.html" />
-        <option value="$PROJECT_DIR$/financial-assistance/apply.html" />
-        <option value="$PROJECT_DIR$/learner_dashboard/program_details_fragment.html" />
-        <option value="$PROJECT_DIR$/learner_dashboard/text-me-fragment.html" />
-        <option value="$PROJECT_DIR$/learner_dashboard/programs_fragment.html" />
+        <option value="$PROJECT_DIR$/student_account/finish_auth.html" />
         <option value="$PROJECT_DIR$/static_templates/404.html" />
         <option value="$PROJECT_DIR$/static_templates/server-down.html" />
         <option value="$PROJECT_DIR$/static_templates/server-overloaded.html" />
         <option value="$PROJECT_DIR$/static_templates/server-error.html" />
-        <option value="$PROJECT_DIR$/student_account/finish_auth.html" />
+        <option value="$PROJECT_DIR$/learner_dashboard/program_details_fragment.html" />
+        <option value="$PROJECT_DIR$/learner_dashboard/text-me-fragment.html" />
+        <option value="$PROJECT_DIR$/learner_dashboard/programs_fragment.html" />
+        <option value="$PROJECT_DIR$/financial-assistance/apply.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/static_content.html" />
+        <option value="$PROJECT_DIR$/header/navbar-logo-header.html" />
+        <option value="$PROJECT_DIR$/x-static-content.html" />
+        <option value="$PROJECT_DIR$/main.html" />
       </list>
     </option>
   </component>
@@ -133,28 +247,6 @@
               <item name="xdj-gnol-lms-templates" type="b2602c69:ProjectViewProjectNode" />
               <item name="xdj-gnol-lms-templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xdj-gnol-lms-templates" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="xdj-gnol-lms-templates" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 2.7 (edx-platform) (3) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="xdj-gnol-lms-templates" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 2.7 (edx-platform) (3) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="edx-platform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xdj-gnol-lms-templates" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 2.7 (edx-platform) (3) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="edx-platform" type="462c0819:PsiDirectoryNode" />
-              <item name="xdj-gnol-lms-templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -163,7 +255,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../common/djangoapps/pipeline_mako/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -191,18 +283,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1301" height="743" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="DB Browser" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21909232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21857923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="DB Execution Console" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="DB Browser" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -210,6 +297,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -233,38 +325,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="96" column="66" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/header/navbar-logo-header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="405">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courseware/courses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="84" column="87" selection-start-line="84" selection-start-column="87" selection-end-line="84" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="87" lean-forward="true" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/x-static-content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="41" lean-forward="true" selection-end-line="254" />
+        <state relative-caret-position="534">
+          <caret line="172" column="55" selection-start-line="172" selection-start-column="55" selection-end-line="172" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static_content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="254" lean-forward="true" selection-start-line="254" selection-end-line="254" />
+        <state relative-caret-position="180">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x-static-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
         </state>
       </provider>
     </entry>
