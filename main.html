@@ -221,6 +221,12 @@ import xdj
   <script type="text/javascript" src="${static.url('js/utils/navigation.js')}" charset="utf-8"></script>
   <script type="text/javascript" src="${static.url('js/header/header.js')}"></script>
   <%static:optional_include_mako file="body-extra.html" is_theming_enabled="True" />
+<style>
+    input[type="submit"], input[type="button"], button, .button :hover {
+        background-color:none !important;
+        background-image:none !important;
+    }
+</style>
   <script>
     var mdl = angular.module("cms",[]);
     var ctrl =mdl.controller("cms",["$scope",function($scope){
