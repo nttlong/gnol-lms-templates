@@ -5,6 +5,10 @@ from django.utils.translation import ugettext as _
 from django.urls import reverse
 from six import text_type
 %>
+<%
+    import xdj
+    xdj.apply_context(self)
+%>
 <%page args="course" expression_filter="h"/>
 <article class="course" id="${course.id}" role="region" aria-label="${course.display_name_with_default}">
   <a href="${reverse('about_course', args=[text_type(course.id)])}">
@@ -39,7 +43,7 @@ from six import text_type
         % if course.advertised_start is not None:
             <li>${_("Starts")}: <time itemprop="startDate">${course.advertised_start}</time></li>
         % else:
-            <li>${_("Starts")}: <time class="localized_datetime" itemprop="startDate" data-format="shortDate" data-datetime="${course_date_string}"></time></li>
+            <li>${self.res("Start at")}: <time class="localized_datetime" itemprop="startDate" data-format="shortDate" data-datetime="${course_date_string}"></time></li>
         % endif
       </ul>
     </div>

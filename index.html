@@ -7,19 +7,27 @@ from django.urls import reverse
 
 from openedx.core.djangolib.markup import HTML, Text
 %>
-
+<style>
+  .home>header {
+    background-image: url("http://suredx.net/static/lv02/css/images/5a0bac80d5b52917b8cc7a12.9ac919c77870.png")
+  }
+  .home>header .title {
+    box-shadow: none;
+    background: transparent;
+  }
+</style>
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="home">
-      <header>
+      <header style="background-image: url(http://suredx.net/static/lv02/css/images/5a0bac80d5b52917b8cc7a12.9ac919c77870.png)">
         <div class="outer-wrapper">
           <div class="title">
-            <div class="heading-group">
+            <!-- <div class="heading-group">
               % if homepage_overlay_html:
                 ${homepage_overlay_html | n, decode.utf8}
               % else:
                 <%include file="index_overlay.html" />
               % endif
-            </div>
+            </div> -->
             % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
               <div class="course-search">
                 <form method="get" action="/courses">
