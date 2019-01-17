@@ -23,12 +23,18 @@ from openedx.core.djangolib.markup import HTML, Text
             % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
               <div class="course-search">
                 <form method="get" action="/courses">
-                  <label><span class="sr">${_("Search for a course")}</span>
+                  <!-- <label><span class="sr">${_("Search for a course")}</span>
                     <input class="search-input" name="search_query" type="text" placeholder="${_("Search for a course")}"></input>
                   </label>
                   <button class="search-button" type="submit">
                     <span class="icon fa fa-search" aria-hidden="true"></span><span class="sr">${_("Search")}</span>
-                  </button>
+                  </button> -->
+                  <div class="input-group">
+                      <input type="text" class="form-control" placeholder="${_("Search for a course")}" name="search_query">
+                      <span class="input-group-btn">
+                        <button class="btn btn-primary" type="button" style="height: 35px">${_("Search")}</button>
+                      </span>
+                    </div>
                 </form>
               </div>
             % endif
@@ -69,3 +75,10 @@ from openedx.core.djangolib.markup import HTML, Text
   $(window).load(function() {$('#signup_action').trigger("click");});
 </script>
 % endif
+<%block name ="angular">
+  <script id="angular">
+    function onInit(scope){
+      
+    }
+  </script>
+</%block>

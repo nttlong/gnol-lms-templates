@@ -25,7 +25,10 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
   else:
     help_link = doc_link
 %>
-
+<%
+    import xdj
+    xdj.apply_context(self)
+%>
 <div class="nav-links">
   <div class="main">
     % if show_dashboard_tabs:
@@ -49,7 +52,8 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
     % endif
     % if show_explore_courses:
       <div class="mobile-nav-item hidden-mobile nav-item nav-tab">
-        <a class="tab-nav-link" href="${marketing_link('COURSES')}">${_('Discover New')}</a>
+        <a class="tab-nav-link" href="${marketing_link('COURSES')}">${self.res("Discover New")}</a>
+        <!-- ${_('Discover New')} -->
       </div>
     % endif
     % if show_sysadmin_dashboard:
@@ -67,9 +71,9 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
         </a>
       </div>
     % endif
-    <div class="mobile-nav-item hidden-mobile nav-item">
+    <!-- <div class="mobile-nav-item hidden-mobile nav-item">
       <a class="help-link" href="${help_link}" target="_blank">${_("Help")}</a>
-    </div>
+    </div> -->
     <%include file="user_dropdown.html"/>
   </div>
 </div>

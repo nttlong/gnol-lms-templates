@@ -24,7 +24,10 @@ from openedx.core.release import RELEASE_LINE
 from pipeline_mako import render_require_js_path_overrides
 import xdj
 %>
-
+<%
+    import xdj
+    xdj.apply_context(self)
+%>
 <!DOCTYPE html>
 <!--[if lte IE 9]><html class="ie ie9 lte9" lang="${LANGUAGE_CODE}" ng-app="cms"><![endif]-->
 <!--[if !IE]><!--><html lang="${LANGUAGE_CODE}" ng-app="cms"><!--<![endif]-->
@@ -227,10 +230,16 @@ import xdj
         background-image:none !important;
     }
 </style>
+<script src="/lms/static/boostrap/js/bootstrap.min.js"></script>
+<link href="/lms/static/boostrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<%block name="angular"/>
   <script>
     var mdl = angular.module("cms",[]);
     var ctrl =mdl.controller("cms",["$scope",function($scope){
-      
+       if(window.onInit){
+         window.onInit($scope);
+       }
+       
     }])
 </script>
 </body>
